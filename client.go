@@ -123,8 +123,8 @@ func (c *Client) req(ctx context.Context, method string, params interface{}) (*R
 
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	id := json.RawMessage(strconv.FormatInt(c.nextID, 10))
 	c.nextID++
+	id := json.RawMessage(strconv.FormatInt(c.nextID, 10))
 	return &Request{
 		id:     id,
 		method: method,
