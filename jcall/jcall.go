@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	"bitbucket.org/creachadair/jrpc2"
-	"bitbucket.org/creachadair/jrpc2/channel/chanutil"
-	"bitbucket.org/creachadair/jrpc2/jctx"
+	"github.com/herenow/jrpc2"
+	"github.com/herenow/jrpc2/channel/chanutil"
+	"github.com/herenow/jrpc2/jctx"
 )
 
 var (

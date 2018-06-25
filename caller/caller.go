@@ -45,7 +45,7 @@ import (
 	"context"
 	"reflect"
 
-	"bitbucket.org/creachadair/jrpc2"
+	"github.com/herenow/jrpc2"
 )
 
 // RPCServerInfo calls the built-in rpc.serverInfo method exported by servers

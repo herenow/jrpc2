@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	"bitbucket.org/creachadair/jrpc2/code"
 	"bitbucket.org/creachadair/stringset"
+	"github.com/herenow/jrpc2/code"
 )
 
 // An Assigner assigns a Handler to handle the specified method name, or nil if

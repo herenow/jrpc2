@@ -1,8 +1,8 @@
 package server
 
 import (
-	"bitbucket.org/creachadair/jrpc2"
-	"bitbucket.org/creachadair/jrpc2/channel"
+	"github.com/herenow/jrpc2"
+	"github.com/herenow/jrpc2/channel"
 )
 
 // Local constructs a *jrpc2.Server and a *jrpc2.Client connected to it via an

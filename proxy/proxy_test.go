@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"bitbucket.org/creachadair/jrpc2"
-	"bitbucket.org/creachadair/jrpc2/server"
+	"github.com/herenow/jrpc2"
+	"github.com/herenow/jrpc2/server"
 )
 
 func TestProxy(t *testing.T) {

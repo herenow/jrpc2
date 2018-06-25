@@ -1,8 +1,8 @@
 // Package chanutil exports helper functions for working with channels and
-// framing defined by the bitbucket.org/creachadair/jrpc2/channel package.
+// framing defined by the github.com/herenow/jrpc2/channel package.
 package chanutil
 
-import "bitbucket.org/creachadair/jrpc2/channel"
+import "github.com/herenow/jrpc2/channel"
 
 // Framing returns a channel.Framing described by the specified name, or nil if
 // the name is unknown. The framing types currently understood are:

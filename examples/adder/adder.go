@@ -2,7 +2,7 @@
 // the process's stdin and stdout.
 //
 // Usage:
-//    $ go build bitbucket.org/creachadair/jrpc2/examples/adder
+//    $ go build github.com/herenow/jrpc2/examples/adder
 //    $ ./adder
 //
 // Queries to try (copy and paste):
@@ -16,8 +16,8 @@ import (
 	"log"
 	"os"
 
-	"bitbucket.org/creachadair/jrpc2"
-	"bitbucket.org/creachadair/jrpc2/channel"
+	"github.com/herenow/jrpc2"
+	"github.com/herenow/jrpc2/channel"
 )
 
 // Add will be exported as a method named "Add".

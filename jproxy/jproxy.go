@@ -14,11 +14,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"bitbucket.org/creachadair/jrpc2"
-	"bitbucket.org/creachadair/jrpc2/channel"
-	"bitbucket.org/creachadair/jrpc2/channel/chanutil"
-	"bitbucket.org/creachadair/jrpc2/proxy"
-	"bitbucket.org/creachadair/jrpc2/server"
+	"github.com/herenow/jrpc2"
+	"github.com/herenow/jrpc2/channel"
+	"github.com/herenow/jrpc2/channel/chanutil"
+	"github.com/herenow/jrpc2/proxy"
+	"github.com/herenow/jrpc2/server"
 )
 
 var (

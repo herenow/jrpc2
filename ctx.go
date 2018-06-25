@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"bitbucket.org/creachadair/jrpc2/metrics"
+	"github.com/herenow/jrpc2/metrics"
 )
 
 // serverContextKey is the concrete type of the context keys used to dispatch

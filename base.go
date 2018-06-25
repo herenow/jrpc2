@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"bitbucket.org/creachadair/jrpc2/channel"
-	"bitbucket.org/creachadair/jrpc2/code"
+	"github.com/herenow/jrpc2/channel"
+	"github.com/herenow/jrpc2/code"
 )
 
 // A Request is a request message from a client to a server.

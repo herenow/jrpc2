@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"bitbucket.org/creachadair/jrpc2"
-	"bitbucket.org/creachadair/jrpc2/channel"
+	"github.com/herenow/jrpc2"
+	"github.com/herenow/jrpc2/channel"
 )
 
 func newServer(t *testing.T, assigner jrpc2.Assigner, opts *jrpc2.ServerOptions) (*jrpc2.Server, *jrpc2.Client, func()) {

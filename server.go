@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"bitbucket.org/creachadair/jrpc2/channel"
-	"bitbucket.org/creachadair/jrpc2/code"
-	"bitbucket.org/creachadair/jrpc2/metrics"
+	"github.com/herenow/jrpc2/channel"
+	"github.com/herenow/jrpc2/code"
+	"github.com/herenow/jrpc2/metrics"
 	"golang.org/x/sync/semaphore"
 )
 

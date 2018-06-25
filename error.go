@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"bitbucket.org/creachadair/jrpc2/code"
+	"github.com/herenow/jrpc2/code"
 )
 
 // Error is the concrete type of errors returned from RPC calls.

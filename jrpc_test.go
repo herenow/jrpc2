@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"bitbucket.org/creachadair/jrpc2/channel"
-	"bitbucket.org/creachadair/jrpc2/code"
-	"bitbucket.org/creachadair/jrpc2/jctx"
+	"github.com/herenow/jrpc2/channel"
+	"github.com/herenow/jrpc2/code"
+	"github.com/herenow/jrpc2/jctx"
 )
 
 type testOptions struct {

@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"sync"
 
-	"bitbucket.org/creachadair/jrpc2/channel"
-	"bitbucket.org/creachadair/jrpc2/code"
+	"github.com/herenow/jrpc2/channel"
+	"github.com/herenow/jrpc2/code"
 )
 
 // A Client is a JSON-RPC 2.0 client. The client sends requests and receives

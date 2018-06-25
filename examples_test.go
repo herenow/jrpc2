@@ -6,8 +6,8 @@ import (
 	"log"
 	"strings"
 
-	"bitbucket.org/creachadair/jrpc2"
-	"bitbucket.org/creachadair/jrpc2/channel"
+	"github.com/herenow/jrpc2"
+	"github.com/herenow/jrpc2/channel"
 )
 
 var (
